@@ -4,20 +4,33 @@
 @import url("https://xcruxiex.github.io/themes/core/hljs.css");
 
 :root {
-    --themeColor1: #36D1DC;
-    --themeColor2: #5B86E5;
-    --font-display: var(--customFont);
-    --homeImage: url('https://imgur.com/eItxuAq.png');
-    --homeImageSize: cover;
-    --backgroundColor: #0d0d0d;
-    --backgroundImage: url('https://imgur.com/qhBghXt.png');
-    --backgroundPosition: center;
-    --backgroundSize: cover;
-    --backgroundRepeat: no-repeat;
-    --backgroundBlur: 100px;
-    --backgroundOpacity: .65;
-    --backgroundCode: rgba(0,0,0,.5);
-    --backgroundName: rgba(0,0,0,.5);
+    --backgroundImage: url('https://i.imgur.com/CYUreCp.jpg');
+  --backgroundColor: #000000;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 1px;
+  --backgroundOpacity: 0.65;
+  --homeImage: url('https://i.imgur.com/8Zrtv6s.png');
+  --homeImageSize: cover;
+  --themeColor1: #36D1DC;
+  --themeColor2: #5B86E5;
+  --customFont: Open Sans;
+  --backgroundCode: rgba(0 0 0 /.5);
+  --backgroundName: rgba(0 0 0 /.5);
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
 }
 
 .appMount-2yBXZl,
