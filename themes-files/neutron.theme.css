@@ -26,27 +26,31 @@ $$ | \$$ |$$$$$$$$\ \$$$$$$  |   $$ |   $$ |  $$ | $$$$$$  |$$ | \$$ |
 
 ##########################################################################*/
 :root {
-  /* COLORS */
-  --themeColor1: #36D1DC; /* Theme's color 1 */
-  --themeColor2: #5B86E5; /* Theme's color 2 */
-
-  /* CUSTOM FONT */
-  --customFont: 'Open sans', sans-serif; /* Custom font, change the name in 'font name here', you must import the font first */
-
-  /* HOME BUTTON */
-  --homeImage: url('https://i.imgur.com/8Zrtv6s.png');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
-  --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
-
-  /* BACKGROUND */
-  --backgroundColor: #000000; /* Background color */
-  --backgroundImage: url('https://i.imgur.com/CYUreCp.jpg'); /* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
-  --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
-  --backgroundSize: cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
-  --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
-  --backgroundBlur: 1px; /* Set to 0 to remove blur | Set to 10px for average blur */
-  --backgroundOpacity: .65; /* 0 is transparent */
-
-  /* CODE BLOCKS */
-  --backgroundCode: rgba(0,0,0,.5);
-  --backgroundName: rgba(0,0,0,.5);
+  --backgroundImage: url('https://i.imgur.com/CYUreCp.jpg');
+  --backgroundColor: #000000;
+  --backgroundSize: cover;
+  --backgroundPosition: center;
+  --backgroundRepeat: no-repeat;
+  --backgroundBlur: 1px;
+  --backgroundOpacity: 0.65;
+  --homeImage: url('https://i.imgur.com/8Zrtv6s.png');
+  --homeImageSize: cover;
+  --themeColor1: #36D1DC;
+  --themeColor2: #5B86E5;
+  --customFont: Open Sans;
+  --backgroundCode: rgba(0 0 0 /.5);
+  --backgroundName: rgba(0 0 0 /.5);
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
 }
